@@ -13,6 +13,7 @@
 body {
     margin: 0;
     font-family: 'Indie Flower', cursive;
+    background-color: #bae8e8;
 }
 
 h1 {
@@ -20,13 +21,13 @@ h1 {
     font-family: 'Lobster', cursive;
     text-shadow: 5px 0 #232931;
     font-size: 4.5rem;
-    color: #4ecca3;
+    color: #b7569a;
     text-align: center;
 }
 
 p {
     font-size: 2rem;
-    color: #4ecca3;
+    color: #b7569a;
     font-family: "Indie Flower", cursive;
 }
 
@@ -42,9 +43,9 @@ img {
 .btn {
     background: black;
     font-family: "Indie Flower", cursive;
-    border-radius: 7px;
+    border-radius: 5rem;
     color: #ffff;
-    font-size: 30px;
+    font-size: 1.5rem;
     padding: 16px 25px 16px 25px;
     text-decoration: none;
 }

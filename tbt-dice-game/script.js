@@ -4,8 +4,9 @@
 
 //  F U N C T I O N  T O   E D I T  P L A Y E R   N A M E S  
   function editNames() {
-      player1 = prompt("Change Player1 Name")
-      player2 = prompt("Change Player2 Name")
+      player1 = prompt("Enter Name of Player 1 😍")
+      player2 = prompt("Enter Name of PLayer 2 😋")
+      alert(`Let the games begin, ${player1} & ${player2} !!! 👾🦾🔥`)
 
       if (player1.length < 1 || player2.length < 1) {
           alert('please enter valid name');
