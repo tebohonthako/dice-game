@@ -4,7 +4,7 @@
 
 //  F U N C T I O N  T O   E D I T  P L A Y E R   N A M E S  
   function editNames() {
-      player1 = prompt("Enter Name of Player 1 😍")
+      player1 = prompt("Hello! Enter Name of Player 1 😍")
       player2 = prompt("Enter Name of PLayer 2 😋")
       alert(`Let the games begin, ${player1} & ${player2} !!! 👾🦾🔥`)
 
@@ -41,10 +41,10 @@
               result.innerHTML = "Draw!"
           }
           else if (randomNumber1 < randomNumber2) {
-              result.innerHTML = (player2 + " WINS!");
+              result.innerHTML = (player2 + " WINS! 🤩");
           }
           else {
-              result.innerHTML = (player1 + " WINS!");
+              result.innerHTML = (player1 + " WINS! 🏆");
           }
 
       }, 2500);

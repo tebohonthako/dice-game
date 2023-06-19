@@ -13,7 +13,7 @@
 body {
     margin: 0;
     font-family: 'Indie Flower', cursive;
-    background-color: #bae8e8;
+    background-color: #1c7293;
 }
 
 h1 {
@@ -26,7 +26,8 @@ h1 {
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
     color: #b7569a;
     font-family: "Indie Flower", cursive;
 }
@@ -50,8 +51,8 @@ img {
     text-decoration: none;
 }
 
-.butn:hover {
-    background: #232931;
+.btn:hover {
+    background: #B7569A;
     text-decoration: none;
 }
 
@@ -66,5 +67,6 @@ position: absolute;
 top: 43rem;
 left: 38rem;
 color: black;
+font-size: 1.2rem;
 
 }
